@@ -1,0 +1,28 @@
+# --- Python Virtual Environments ---
+venv/
+*.venv
+
+# --- Python Cache & Compiled Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- macOS Specific files ---
+.DS_Store
+
+# --- IDE / Editor Specific Files (Optional but good practice) ---
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- Common Temporary Files ---
+*.log
+*.tmp
+*.swp
+
+# --- Data Files ---
+# If your data file is very large (>100MB) or contains sensitive info
+# you might want Git to ignore it by uncommenting the line below.
+# For now, we KEEP IT COMMENTED so the data IS uploaded, allowing your friend
+# to run the app directly from GitHub via Streamlit Community Cloud.
+# data/loan_data.parquet
